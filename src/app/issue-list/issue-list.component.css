@@ -31,9 +31,20 @@ body {
 
     mat-table .table-unsplash 
     {
-        background-image: url('../../assets/table.jpg') no-repeat; 
+        background: url('../../assets/water.jpg') no-repeat; 
     }
   
+    .mat-paginator-page-size, 
+    .mat-paginator-range-actions
+    {
+        margin-bottom: 30px;
+    }
+
+    .mat-form-field-wrapper .mat-form-field-infix 
+    {
+        margin-left: 15px;
+    }
+
   @media screen and (max-width: 960px) {
     .mat-table {
       border: 0;
